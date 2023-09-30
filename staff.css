@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Esto asegura que el cuerpo de la página ocupe al menos el 100% de la altura de la ventana gráfica. */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #F8CF40; /* Color del texto del encabezado */
+    padding: 1px 0; /* Espaciado interno en la parte superior e inferior */
+}
+
+/* Estilo del menu de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilo de la imagen del Logotipo */
+.logo img {
+    max-width: 106px; /* Tamaño máximo del logotipo */
+}
+
+/* Estilo del Título */
+.title h1 {
+    font-size: 78px; /* Tamaño de fuente del título */
+    color: #fff; /* Color del texto del título */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #F8CF40; /* Color del texto del enlace en el encabezado */
+}
+
+/* Estilo de los enlaces al pasar el cursor sobre ellos */
+a:hover {
+    color: #fff; /* Cambia el color del texto al pasar el cursor sobre los enlaces */
+}
+
+/* Estilo para imágenes */
+img {
+    max-width: 100%; /* Asegura que las imágenes no sean más anchas que su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    display: block; /* Elimina el espacio adicional debajo de las imágenes */
+    margin: 0 auto; /* Centra la imagen horizontalmente en su contenedor (opcional) */
+    border: 1px solid #ddd; /* Agrega un borde a las imágenes (opcional) */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave a las imágenes (opcional) */
+}

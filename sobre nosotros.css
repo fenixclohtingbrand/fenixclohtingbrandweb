@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Esto asegura que el cuerpo de la página ocupe al menos el 100% de la altura de la ventana gráfica. */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #F8CF40; /* Color del texto del encabezado */
+    padding: 1px 0; /* Espaciado interno en la parte superior e inferior */
+}
+
+
+/* Estilo del menu de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilo de la imagen del Logotipo */
+.logo img {
+    max-width: 95px; /* Tamaño máximo del logotipo */
+}
+
+/* Estilo del Título */
+.title h1 {
+    font-size: 78px; /* Tamaño de fuente del título */
+    color: #fff; /* Color del texto del título */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #F8CF40; /* Color del texto del enlace en el encabezado */
+}
+
+/* Estilo de los enlaces al pasar el cursor sobre ellos */
+a:hover {
+    color: #fff; /* Cambia el color del texto al pasar el cursor sobre los enlaces */
+}
+
+/* Estilos para la sección del banner */
+#banner {
+    background-image: url('banner.jpg');
+    background-size: 1;
+    background-position: 9;
+    color: #fff;
+    text-align: center;
+    padding: 111px 0;
+}
+
+#banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: white; /* Color de texto del footer */
+    padding: 11px; /* Espaciado interior del footer */
+    text-align: center;
+    position: auto;
+    bottom: 0;
+}
+
+img {
+    max-width: 15%; /* Asegura que las imágenes no sean más anchas que su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    display: b; /* Elimina el espacio adicional debajo de las imágenes */
+}
+  
